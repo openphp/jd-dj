@@ -1,0 +1,29 @@
+{
+  "name": "openphp/jd-dj",
+  "description": "京东到家开放平台[https://opendj.jd.com/]",
+  "type": "library",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Openphp\\JdDj\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "wangzhiqiang",
+      "email": "zhiqiangwang@aliyun.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Openphp\\JdDj\\Tests\\": "tests/"
+    }
+  }
+}
